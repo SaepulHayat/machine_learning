@@ -11,11 +11,11 @@
 
 ---
 
-## 📋 Deskripsi Singkat
+##  Deskripsi
 
 Sistem Machine Learning berbasis **K-Means Clustering** untuk mengklasifikasikan 27 kabupaten/kota di Jawa Barat berdasarkan tingkat risiko bencana. Menggunakan 6 indikator bencana (banjir, gempa, longsor, cuaca ekstrem, kerusakan rumah, dan indeks risiko) untuk menghasilkan peta risiko interaktif yang membantu pengambilan keputusan mitigasi bencana.
 
-### 🎯 Tujuan Utama
+###  Tujuan Utama
 - ✅ **Automated Risk Assessment** - Klasifikasi wilayah secara objektif
 - ✅ **Data-Driven Decision Making** - Rekomendasi prioritas berbasis metrik
 - ✅ **Visual Communication** - Peta & grafik untuk stakeholder non-teknis
@@ -23,14 +23,14 @@ Sistem Machine Learning berbasis **K-Means Clustering** untuk mengklasifikasikan
 
 ---
 
-## 🏗️ Arsitektur Sistem
+##  Arsitektur Sistem
 
 ```
 ┌─────────────────────────────────────────────────────┐
 │               INPUT DATA LAYER                      │
 ├─────────────────────────────────────────────────────┤
-│  📄 6 CSV Files (Bencana)                           │
-│  🗺️ GeoJSON (Peta Indonesia Level 4)                │
+│   6 CSV Files (Bencana)                           │
+│   GeoJSON (Peta Indonesia Level 4)                │
 └──────────────────────┬──────────────────────────────┘
                        ▼
 ┌─────────────────────────────────────────────────────┐
@@ -54,7 +54,7 @@ Sistem Machine Learning berbasis **K-Means Clustering** untuk mengklasifikasikan
 
 ---
 
-## 📁 Struktur Project
+##  Struktur Project
 
 ```
 disaster-risk-analytics/
@@ -91,7 +91,7 @@ disaster-risk-analytics/
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Instalasi Dependencies
 
@@ -143,7 +143,7 @@ Terminal:
 
 ---
 
-## 🧠 Metodologi Machine Learning
+##  Metodologi Machine Learning
 
 ### K-Means Clustering
 
@@ -175,7 +175,7 @@ labels = kmeans.fit_predict(X_scaled)
 
 ---
 
-## 📊 Evaluasi Model
+##  Evaluasi Model
 
 ### Metrik Validasi
 
@@ -209,7 +209,7 @@ Cluster 2 (MEDIUM RISK):
 
 ---
 
-## 🗺️ Output Visualisasi
+##  Output Visualisasi
 
 ### 1. Peta Choropleth
 ![Peta Risiko](output/peta_risiko_final.png)
@@ -230,7 +230,7 @@ Cluster 2 (MEDIUM RISK):
 
 ---
 
-## 💼 Use Cases
+##  Use Cases
 
 ### 1. Pemerintah Daerah (BPBD)
 ```
@@ -258,7 +258,7 @@ Cluster 2 (MEDIUM RISK):
 
 ---
 
-## 🔧 Konfigurasi
+##  Konfigurasi
 
 Edit file `config.py` untuk customize:
 
@@ -288,7 +288,7 @@ class Config:
 
 ---
 
-## 🎓 Untuk Peneliti
+##  Untuk Peneliti
 
 ### Ekspansi ke Provinsi Lain
 
@@ -315,7 +315,7 @@ for k in range(2, 6):
 
 ---
 
-## ⚠️ Limitasi
+##  Limitasi
 
 1. **Analisis Statis** - Tidak memperhitungkan trend temporal
 2. **Equal Weight Features** - Semua fitur dianggap sama penting
@@ -325,7 +325,7 @@ for k in range(2, 6):
 
 ---
 
-## 🚀 Future Work
+##  Future Work
 
 - [ ] **Time Series Analysis** - Analisis trend tahunan
 - [ ] **Weighted Features** - Bobot berbeda per fitur
@@ -337,7 +337,7 @@ for k in range(2, 6):
 
 ---
 
-## 📚 Referensi
+##  Referensi
 
 1. **Data Source**: [Open Data Jabar](https://opendata.jabarprov.go.id/)
 2. **GeoJSON**: [GADM Database](https://gadm.org/download_country.html)
@@ -357,7 +357,7 @@ for k in range(2, 6):
 
 ---
 
-## 📧 Kontak
+##  Kontak
 
 Untuk pertanyaan atau kolaborasi:
 - 📧 Email: [saepul.hayat@widyatama.ac.id]
@@ -366,13 +366,13 @@ Untuk pertanyaan atau kolaborasi:
 
 ---
 
-## 📄 License
+##  License
 
 MIT License - lihat file [LICENSE](LICENSE) untuk detail.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Terima kasih kepada:
 - **Open Data Jabar** untuk penyediaan dataset bencana
