@@ -6,8 +6,8 @@
 [![Status](https://img.shields.io/badge/Status-Production-success.svg)]()
 
 > **Tim Pengembang:** Saepul, Adit, Defran, Andrew  
-> **Institusi:** [Nama Universitas]  
-> **Tahun:** 2025
+> **Institusi:** [Universitas Widyatama]  
+> **Tahun:** 2026
 
 ---
 
