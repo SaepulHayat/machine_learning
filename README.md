@@ -3,7 +3,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production-success.svg)]()
+[![Status](https://img.shields.io/badge/Status-Production-success.svg)]() 
 
 > **Tim Pengembang:** Saepul, Adit, Defran, Andrew  
 > **Institusi:** [Universitas Widyatama]  
