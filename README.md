@@ -29,8 +29,8 @@ Sistem Machine Learning berbasis **K-Means Clustering** untuk mengklasifikasikan
 ┌─────────────────────────────────────────────────────┐
 │               INPUT DATA LAYER                      │
 ├─────────────────────────────────────────────────────┤
-│   6 CSV Files (Bencana)                           │
-│   GeoJSON (Peta Indonesia Level 4)                │
+│   6 CSV Files (Bencana)                             │
+│   GeoJSON (Peta Indonesia Level 4)                  │
 └──────────────────────┬──────────────────────────────┘
                        ▼
 ┌─────────────────────────────────────────────────────┐
